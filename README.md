@@ -9,7 +9,7 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 - AWS Transfer Family
 - Amazon S3
 - AWS IAM
-- [WinSCP](https://winscp.net/eng/index.php) (Windows S/FTP client)
+- [WinSCP](https://winscp.net/eng/index.php) (Windows S/FTP file transfer client)
 
 
 ## Deployment
