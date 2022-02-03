@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-Instructions to deploy an FTP server using the **AWS Transfer Family Service**.
+Instructions to deploy a managed SFTP server using the **AWS Transfer Family Service**.
 
 
 ## Solution Components
