@@ -25,7 +25,7 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 
 ### AWS IAM
 **Create a new role**
-- IAM > Access management > Roles > Create role > Service: Transfer > Policy: AmazonS3FullAccess > Role name: `FTP-ROLE`
+- IAM > Access management > Roles > Create role > Service: Transfer > Policy: AmazonS3FullAccess > Role name: `FTP-ROLE` > Create role
 
 
 ### AWS Transfer Family
