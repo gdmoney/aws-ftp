@@ -33,7 +33,7 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 - Create server > Protocol: SFTP > Identity provider: Service managed > Endpoint config: Publicly accessible > Domain: S3
 
 **Create a new user**
-- Add user > Username: `<USERNAME>` > Role: `FTP-ROLE` > Policy: Existing policy > Home directory: `<S3_BUCKET_NAME>` > Restricted = CHECK > SSH public keys: `<PUB_KEY>`
+- Add user > Username: `<FTP_USERNAME>` > Role: `FTP-ROLE` > Policy: Existing policy > Home directory: `<S3_BUCKET_NAME>` > Restricted = CHECK > SSH public keys: `<PUB_KEY>`
 
 
 ### WinSCP
