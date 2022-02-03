@@ -44,4 +44,4 @@ Instructions to deploy an FTP server using the **AWS Transfer Family Service**.
 - Advanced > SSH > Authentication > Private key file: C:\PATH\TO\PRIVATE_KEY.ppk
 
 **Disable timestamp preservation**
-Options > Preferences > Transfer > Default > Edit > Common options > Preserve timestamp = UNCHECK
+- Options > Preferences > Transfer > Default > Edit > Common options > Preserve timestamp = UNCHECK
