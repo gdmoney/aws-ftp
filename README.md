@@ -41,7 +41,7 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 - Port: 22
 - User: `<FTP_USERNAME>`
 - Password:
-- Advanced > SSH > Authentication > Private key file: C:\PATH\TO\PRIVATE_KEY.ppk
+- Advanced > SSH > Authentication > Private key file: `<C:\PATH\TO\PRIVATE_KEY.ppk>`
 
 **Disable timestamp preservation**
 - Options > Preferences > Transfer > Default > Edit > Common options > Preserve timestamp = UNCHECK
