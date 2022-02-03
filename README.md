@@ -14,8 +14,8 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 
 ## Deployment
 ### WinSCP
-**Create SSH keys**
-- Tools > Run PuTTYgen > Type: RSA > Generate > Save private key > copy public key
+**Create a new key pair**
+- Tools > Run PuTTYgen > Type of key: RSA > Generate > Save private key > copy public key
 
 
 ### Amazon S3
