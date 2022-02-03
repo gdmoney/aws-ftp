@@ -20,7 +20,7 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 
 ### Amazon S3
 **Create a new bucket**
-- S3 > Create bucket
+- S3 > Create bucket > Bucket name: `<S3_BUCKET_NAME>` > Create bucket
 
 
 ### AWS IAM
