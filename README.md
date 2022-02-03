@@ -9,10 +9,15 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 - AWS Transfer Family
 - Amazon S3
 - AWS IAM
-- [WinSCP](https://winscp.net/eng/index.php) (Windows FTP client)
+- [WinSCP](https://winscp.net/eng/index.php) (Windows S/FTP client)
 
 
 ## Deployment
+### WinSCP
+**Create SSH keys**
+- Tools > Run PuTTYgen > Type: RSA > Generate > Save private key > copy public key
+
+
 ### Amazon S3
 **Create a new bucket**
 - S3 > Create bucket
@@ -32,9 +37,6 @@ Instructions to deploy a managed SFTP server using the **AWS Transfer Family** s
 
 
 ### WinSCP
-**Create SSH keys**
-- Tools > Run PuTTYgen > Type: RSA > Generate > Save private key > copy public key
-
 **Create a new session**
 - Protocol: SFTP
 - Hostname: `<AWS_FTP_ENDPOINT>`
